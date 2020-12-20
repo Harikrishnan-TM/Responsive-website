@@ -18,3 +18,10 @@ a {
   align-items: center;
   justify-content: center;
 }
+/* Hero section */
+#hero {
+  background-image: url(./img/hero-bg.png);
+  background-size: cover;
+  background-position: top-center;
+  position: relative;
+} /* Hero section */ ;
