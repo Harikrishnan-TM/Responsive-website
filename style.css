@@ -59,6 +59,14 @@ p {
   color: white;
   background-color: crimson;
 }
+.brand h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+}
+.brand h1 span {
+  color: crimson;
+}
 /* Hero section */
 #hero {
   background-image: url(./img/hero-bg.png);
@@ -362,7 +370,36 @@ p {
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
-} /* End footer section*/
+}
+#footer h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+#footer .social-item {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0 5px;
+}
+#footer .social-item img {
+  filter: grayscale(1);
+  transition: 0.3sec ease filter;
+}
+#footer.social-item:hover img {
+  filter: grayscale(0);
+}
+#footer p {
+  color: white;
+  font-size: 1.3rem;
+}
+/* End footer section*/
 @keyframes text_reveal {
   100% {
     color: white;
