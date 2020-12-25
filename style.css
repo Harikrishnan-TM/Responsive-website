@@ -352,6 +352,17 @@ p {
   font-weight: 500;
 }
 /*End contact section*/
+
+/* footer section*/
+#footer {
+  background-image: linear-gradient(60deg, #23323c 0%, #485563 100%);
+}
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+} /* End footer section*/
 @keyframes text_reveal {
   100% {
     color: white;
