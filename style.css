@@ -411,3 +411,45 @@ p {
     font-weight: 500;
   }
 }
+/* Meida Query for Tablet */
+@media only screen and (min-width: 768px) {
+  .cta {
+    font-size: 1.5rem;
+    padding: 20px 60px;
+  }
+  h1.section-title {
+    font-size: 2.5rem;
+  }
+  /*Hero */
+  #hero h1 {
+    font-size: 5rem;
+  }
+  /*End hero */
+  /*service section*/
+  #services .service-bottom .service-item {
+    flex-basis: 42%;
+
+    margin: 2.5%;
+  }
+  /*End service section*/
+  /*project */
+  #projects .project-item {
+    flex-direction: row;
+  }
+  #projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  #projects .project-item {
+    height: 300px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  } /*project */
+  #projects .all-projects .project-info {
+    height: 100%;
+  }
+  #projects .all-projects .project-img {
+    height: 100%;
+  }
+}
+/* Meida Query for Tablet */
